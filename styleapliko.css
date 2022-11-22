@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: auto;
+    margin: 50px 100px;
+    padding: 30px;
+    border:4px solid rgb(67, 95, 218);
+    
+}
+.header{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+
+    color:white;
+    padding-top: 20px;
+    height:50px; 
+    width:100%;
+    height:120px
+}
+.header a{
+    padding-left: 20px;
+    padding-right: 50px; 
+    margin-top:30px;
+   font-size:20px;
+
+}
+h3{
+    color:rgb(67, 95, 218);
+}
+h2{
+
+    background-color: rgb(67, 95, 218); 
+    color: white;
+}
+.title{
+    color:rgb(130, 151, 245);
+
+    text-align: center;
+}
+.elementor-image-box-description{
+    text-align: center;
+ justify-content: center;
+
+}
+
+.bord{
+    border:2px solid rgb(67, 95, 218);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(67, 95, 218);
+    color: white;
+}
+h3{
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+  }
+ 
+  main{
+    margin: 30px;
+  }
+  .right{
+    float: left;
+  }
+  .left{
+    float: right;
+  }
+  .row{
+	display: flex;
+    font-family: 'Poppins', sans-serif;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    line-height: 1.7;
+    font-family: 'Oswald', sans-serif;  
+    margin: 40px;
+}
+input{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    float: left;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.center > button{
+    background-color: rgb(67, 95, 218);
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 30px;
+    color: white;
+    font-size: 19px;
+}
