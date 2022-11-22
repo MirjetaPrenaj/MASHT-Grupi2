@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Kosova,Regjistrimi i femijeve ne klase te pare</title>
+    <title>Regjistrimi i femijeve ne klase te pare</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-       
+       function readMoreFunction(){
+        var dots=document.getElementById("dots");
+        var contentText=document.getElementById("procedura");
+        var btnText=document.getElementById("buttonReadMore");
+        if(dots.style.display==="none"){
+            dots.style.display="inline";
+            btnText.innerHTML="Lexo me shume";
+            contentText.style.display="none";
+        }
+        else{
+            dots.style.display="none";
+            btnText.innerHTML="Lexo me pak";
+            contentText.style.display="inline";
+        }
+    }
     </script>
 </head>
 <body>
-   <!----<div class="container">
+    <div class="container">
         <div class="row ">
             <div class="col-12 header">
                 <img src="./logo2.svg" height="90" width="150">
@@ -23,12 +37,12 @@
                 <a href="#">Informata</a>     
                 </div>
             </div>      
-    </div> -->
+    </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 title">
-                <h2>Regjistrimi i femijeve ne klase te pare</h2>
-            </div>
+           <div class="login_button">         
+             <a href="#" >Login</a>
+           </div>
         </div>
     </div>
     <div class="container">
@@ -48,7 +62,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-9 content">
+            <div class="col-9 contents">
                 <h3>Regjistrimi ne klase te pare</h3>
                 <p>Sherbimi elektronik u vjen ne ndihme nxenesve te cilet duhet te regjistrohen ne klasen e pare ne shkollat e arsimit baze parauniversitar per vitin shkollor 2022-2023.Personi qe ushtron pergjegjesine prinderore mund te beje nje aplikim online, ku plotesohen te dhenat e nevojshme te formularit.
                     Nxenesit lejohet te regjistrohen ne institucionin arsimor publik qe mbulon vendbanimin e personit qe ushtron pergjegjesine prinderore te nxenesit.Harta e mbulimit te territorit te miratuar nga    respektohet gjate regjistrimit te nxenesve ne klasen e pare.
@@ -59,9 +73,9 @@
                   <p>Dokumentet qe ngarkohen nga aplikanti</p>
                   <p>Vetem ne rastet kur aplikimi per regjistrim kryhet nga personi qe ka kujdestari ligjore</p>
                   <p>Dokumemnti i kujdestarise ligjore</p>
-
+                    <div id="dots">...</div>
                   <div id="procedura" style="display:none">
-                    <p>- Identifikohuni si qytetar në portalin e-Albania; </p>
+                    <p>- Identifikohuni si qytetar në portalin e-Kosova; </p>
                    <p>- Zgjidhni shërbimin "Aplikim për regjistrim në klasë të parë"; </p>
                    <p> - Klikoni butonin "Përdor"; </p>
                    <p> - Plotësoni formularin e aplikimit dhe klikoni "Dërgo"; </p>
@@ -78,7 +92,7 @@
                     <h3>Me shume</h3>
                     <p>Per cdo pyetje apo paqartesi mbi perdorimin e sherbimit mund te kontaktoni ne adresen <a href="ekosova@rks-gov.net">ekosova@rks-gov.net</a></p>
                   </div>
-                  <button type="button"  onclick="document.getElementById('procedura').style.display='block'">Lexo me shume</button>
+                  <button   onclick="readMoreFunction()" id="buttonReadMore">Lexo me shume</button>
                 </div>
         </div>
     </div>
@@ -87,8 +101,8 @@
             <div class="col-12">
             <b>E Rendesishme</b>
             <div>
-                <p>Te dhenat e perdoruesve ne portalin e-Kosova shfaqen automatikisht nga databazat e institucioneve qe i administrojne ato.<br>
-                Ne asnje rast e-Kosova nuk i modifikon te dhenat e publikuara.</p>
+                <p>Te dhenat e perdoruesve ne portalin  shfaqen automatikisht nga databazat e institucioneve qe i administrojne ato.<br>
+                Ne asnje rast  nuk i modifikojme te dhenat e publikuara.</p>
             </div>
             </div>
         </div>
