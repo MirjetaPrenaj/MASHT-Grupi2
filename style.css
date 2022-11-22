@@ -1,0 +1,61 @@
+
+h3{
+    color:rgb(67, 95, 218);
+}
+h2{
+    padding:0 20px;
+}
+.title{
+    color:rgb(130, 151, 245);
+   border:1px solid rgb(130, 151, 245);
+    text-align: center;
+}
+.login_button{
+    width:150px;
+    height:100%;
+    position:relative;
+    left:80px;
+}
+.login_button a{
+       display:inline-block;
+       font-size: 19px;
+       position:relative;
+       left:1199px;
+       padding-right:10px;
+       padding-left: 10px;
+       margin-top: 4px;
+       border: 1px solid rgb(194, 194, 209);
+       border-radius: 10px;
+       background-color: rgb(220, 220, 233);
+}
+
+
+.contacts{
+    margin-top: 150px;
+}
+.contents{
+    margin-top: 20px;
+}
+.contents h3{
+    color:rgb(130, 151, 245);
+}
+i{
+    color:rgb(130, 151, 245);
+}
+#buttonReadMore{
+    border: 1px solid rgb(135, 135, 235);
+    border-radius: 10px;
+    background-color: rgb(220, 220, 233);
+    margin-top: 3px;
+}
+#procedura{
+    display:none;
+}
+.important{
+    text-align: center;
+    color:white;
+    margin-top: 24px;
+    border-radius: 0 0 5px 5px;
+    background-color: rgb(130, 151, 245);
+    
+}
