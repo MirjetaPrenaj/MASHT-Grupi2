@@ -22,6 +22,10 @@
     width:100%;
     height:120px
 }
+.container-fluid{
+    
+    
+}
 .header a{
     padding-left: 20px;
     padding-right: 50px; 
@@ -46,6 +50,7 @@ h4{
     color:rgb(130, 151, 245);
 
     text-align: center;
+    
 }
 .elementor-image-box-description{
     text-align: center;
