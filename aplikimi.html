@@ -16,10 +16,12 @@
 <body>
     
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 title">
-                <h2>Regjistrimi i femijeve ne klase te pare</h2>
+        <div class="row title">
+            <div class="col-12 ">
+                <h2 style="text-align:center;">Regjistrimi i femijeve ne klase te pare</h2>
+               
             </div>
+            
         </div>
     </div>
     <div class="main">
@@ -28,12 +30,11 @@
                 <br>
                 <img src="rks.png" height="90" width="150" class="right">
                 
-                <br>
-                <br>
+                
                 <div class="middle">
                     <h3 style="color: rgb(67, 95, 218)">
                         MINISTRIA E ARSIMIT, SHKENCËS, TEKNOLOGJISË DHE INOVACIONIT<br><br>
-                        Aplikimi per regjistrimin ne klase te pare</32>
+                        Aplikimi per regjistrimin ne klase te pare</3>
                    
                 </div>
                 <br>
@@ -45,45 +46,53 @@
        <div class="permbajtja">
                 <div class="row">
                     <div class="col-6">
-                        <div class="row">
+                        <div class="row gy-5">
                             <div class="col-3">
                         <span>ID: </span> </div>
                     
                     <div class="col-9">
-                        <input type="text" class="w-100"></div>
+                        <input type="text" class="w-100"placeholder="numri i ID-se suaj"></div>
                     
                     <div class="col-3">
                     <span>Emri:  </span></div>
                     <div class="col-9">
-                    <input type="text" class="w-100"></div>
+                    <input type="text" class="w-100" placeholder="emri juaj"></div>
                     
                     <div class="col-3">
                     <span>Mbiemri:  </span></div>
                     
                     <div class="col-9">
-                        <input type="text" class="w-100"></div>
+                        <input type="text" class="w-100" placeholder="mbiemri juaj"></div>
                     
                     <div class="col-3">
                     <span>Gjinia:  </span></div>
-                <div class="col-9">
-                    <input type="text" class="w-100"></div>
+                <div class="col-9"><div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                    <label class="form-check-label" for="inlineRadio1">Femer</label>
+                  </div>
+                  
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+                    <label class="form-check-label" for="inlineRadio2">Mashkull</label>
+                  </div>
+                    </div>
                 </div>
                     </div>
                     <div class="col-6">
                         <div class="row">
                         
                         <div class="col-3">   <span>Nr tel:  </span></div> 
-                        <div class="col-9"><input type="text" class="w-100"></div>
+                        <div class="col-9"><input type="text" class="w-100"placeholder="numri telefonit"></div>
                         
                         <div class="col-3"><span>Datelindja:  </span></div>
-                        <div class="col-9"><input type="date" class="w-100"></div>
+                        <div class="col-9"><input type="date" class="w-100"placeholder="datelindja juaj"></div>
                         <div class="col-3">
                         <span>Adresa:  </span></div>
                         <div class="col-9">
-                            <input type="text" class="w-100"></div>
+                            <input type="text" class="w-100"placeholder="adresa juaj"></div>
                        
                         <div class="col-3"><span>Email:  </span></div>
-                        <div class="col-9"><input type="text" class="w-100"></div>
+                        <div class="col-9"><input type="text" class="w-100"placeholder="emaili juaj"></div>
                     </div>
                     </div>
                 </div>
@@ -98,40 +107,79 @@
                         <span>ID: </span> </div>
                     
                     <div class="col-9">
-                           <input type="text" class="w-100"></div> 
+                           <input type="text" class="w-100"placeholder="numri i ID-se se femijes suaj"></div> 
                     
                     <div class="col-3">
                     <span>Lidhja juaj me femijen:  </span></div>
                     <div class="col-9">
-                    <input type="text" class="w-100"></div>
+                     
+
+                        <select name="lidhja juaj me femijen" id="lidhja" class="w-100 ">
+                        <option value="c++">Lidhja juaj me femijen eshte: </option>
+                          <option value="Prind">Prind</option>
+                          <option value="Kujdestar">Kujdestar</option>
+                          
+                        </select>
+                    </div>
+                        
                     
                     <div class="col-3">
                     <span>Emri:  </span></div>
                     
                     <div class="col-9">
-                        <input type="text" class="w-100"></div>
+                        <input type="text" class="w-100"placeholder="emri i aplikantit"></div>
                     
                     <div class="col-3">
                     <span>Mbiemri:  </span></div>
                 <div class="col-9">
-                    <input type="email" class="w-100"></div>
+                    <input type="email" class="w-100"placeholder="mbiemri i aplikantit"></div>
                 </div>
                     </div>
                     <div class="col-6">
                         <div class="row">
                         
                         <div class="col-3">   <span>Gjinia:  </span></div> 
-                        <div class="col-9"><input type="number" class="w-100"></div>
+                        <div class="col-9"><div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                            <label class="form-check-label" for="inlineRadio1">Femer</label>
+                          </div>
+                          
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+                            <label class="form-check-label" for="inlineRadio2">Mashkull</label>
+                          </div>
+                            </div>
                         
                         <div class="col-3"><span>Datelindja:  </span></div>
                         <div class="col-9"><input type="date" class="w-100"></div>
                         <div class="col-3">
                         <span>Statusi prinderor:  </span></div>
                         <div class="col-9">
-                        <input type="text" class="w-100"></div>
+                            <select name="statusi prinderor" id="statusi prinderor" class="w-100 ">
+                                <option value="atatusi prinderor">Ju jeni:</option>
+                                  <option value="Nena">Nena</option>
+                                  <option value="Babai">Babai</option>
+                                  <option value="kujdestar">Kujdestar/e</option>
+                                  
+                                </select></div>
                        
                         <div class="col-3"><span>Pakice kombetare:  </span></div>
-                        <div class="col-9"><input type="text" class="w-100"></div>
+                        <div class="col-9"><form>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="">Po
+                            </label>
+                            <select name="pakice kombetare" id="pakice kombetare" class="w-100 ">
+                                <option value="atatusi prinderor">pakice kombetare:</option>
+                                  <option value="serb">Serb</option>
+                                  <option value="turq">Turq</option>
+                                  <option value="boshnjak">Boshnjak</option>
+                                  <option value="ashkalinje">Ashkalinjë</option>
+                                  <option value="egjiptas">Egjiptas</option>
+                                  <option value="rome">Romë</option>
+                                  <option value="others">Tjeter...</option>
+                                  
+                                  
+                                </select></div></form></div>
                     </div>
                     </div>
                 </div>
@@ -141,17 +189,29 @@
                         <div class="row">
                         
                         <div class="col-3">   <span>Komuna: </span></div> 
-                        <div class="col-9"><input type="text" class="w-100"></div>
+                        <div class="col-9"> <select name="komuna" id="komuna" class="w-100 ">
+                            <option value="komuna">Komuna:</option>
+                              <option value="Prishine">Prishtine</option>
+                              <option value="Prizren">Prizren</option>
+                              <option value="Peje">Peje</option>
+                              <option value="Ferizaj">Ferizaj</option>
+                              <option value="Gjilan">Gjilan</option>
+                              <option value="Gjakove">Gjakove</option>
+                              <option value="Mitrovice">Mitrovice</option>
+                              <option value="tjeter">Tjeter...</option>
+
+                              
+                            </select></div>
                         
                         <div class="col-3"><span>Njesia administrative:  </span></div>
-                        <div class="col-9"><input type="date" class="w-100"></div>
+                        <div class="col-9"><input type="text" class="w-100" placeholder="njesia administrative"></div>
                         <div class="col-3">
                         <span>Zona ku banoni:  </span></div>
                         <div class="col-9">
-                        <input type="text" class="w-100"></div>
+                        <input type="text" class="w-100" placeholder="zona :"></div>
                        
                         <div class="col-3"><span>Shkolla per regjistrim:  </span></div>
-                        <div class="col-9"><input type="text" class="w-100"></div>
+                        <div class="col-9"><input type="text" class="w-100" placeholder="emri shkolles ku doni te regjistroheni:"></div>
                     </div>
                     </div>
                 </div>
@@ -166,10 +226,21 @@
                    <div class="col-3">
                     <span>A jeni i/e vaksinuar:  </span></div>
                     <div class="col-9">
-                    <input type="text" class="w-100"></div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                            <label class="form-check-label" for="inlineRadio1">          Po</label>
+                
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                                <label class="form-check-label" for="inlineRadio1">           Jo</label>
+                              
+                          </div>
+                    </div>
                    
-                    <div class="col-3"><span>Pakice kombetare:  </span></div>
-                    <div class="col-9"><input type="text" class="w-100"></div>
+                    <div class="col-3">
+                    <span><label for="myfile">Vendos kartelen e vaksinimit:</label></span>
+                    <div class="col-9">
+                    <input type="file" id="myfile" name="myfile"></div>
+                    
                 </div>
                 </div>
             </div>
